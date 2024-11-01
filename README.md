@@ -24,7 +24,10 @@ Pour installer le package, clonez ce dépôt et installez les dépendances néce
 
 ```bash
 # Clonez le dépôt
-git clone <url-du-dépôt>
+git clone <https://github.com/Jleduc23/TP_Leduc_Jun_Mandelbrot>
+
+## Utilisation
+
 
 # Naviguez vers le répertoire du projet
 cd Mandelbrot_Julia_TP
