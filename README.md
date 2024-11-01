@@ -26,11 +26,24 @@ Pour installer le package, clonez ce dépôt et installez les dépendances néce
 # Clonez le dépôt
 git clone <https://github.com/Jleduc23/TP_Leduc_Jun_Mandelbrot>
 
-## Utilisation
-
 
 # Naviguez vers le répertoire du projet
 cd Mandelbrot_Julia_TP
 
 # Installez les dépendances
 pip install -r requirements.txt
+```
+
+## Utilisation
+
+Ce projet permet de visualiser les ensembles de Mandelbrot et de Julia. Vous pouvez exécuter les scripts pour générer les images correspondantes en ligne de commande.
+
+### Prérequis
+
+Assurez-vous que les modules `numpy` et `matplotlib` sont installés. Pour les installer, utilisez la commande suivante :
+
+```bash
+pip install numpy matplotlib
+
+
+
