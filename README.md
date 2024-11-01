@@ -1,4 +1,4 @@
-# Mandelbrot et Julia Set Visualization
+# Visualisation des ensembles de Mandelbrot et de Julia
 
 Ce projet contient un package Python pour visualiser et générer les ensembles de Mandelbrot et de Julia, deux ensembles fractals complexes. Ces ensembles sont représentés sous forme d'images et sont calculés en fonction de points complexes, permettant de créer de magnifiques fractales.
 
