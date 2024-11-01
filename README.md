@@ -35,7 +35,7 @@ git clone <https://github.com/Jleduc23/TP_Leduc_Jun_Mandelbrot>
 cd Mandelbrot_Julia_TP
 
 # Installez les dépendances
-pip install -r requirements.txt
+pip install numpy matplotlib
 ```
 
 ## Utilisation
