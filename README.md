@@ -7,7 +7,6 @@ Ce projet contient un package Python pour visualiser et générer les ensembles 
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Exemples](#exemples)
-- [Contribution](#contribution)
 
 ## Aperçu
 
@@ -20,6 +19,11 @@ L'ensemble de Mandelbrot et les ensembles de Julia sont des fractales obtenues p
 
 ## Installation
 
+Assurez-vous que les modules `numpy` et `matplotlib` sont installés. Pour les installer, utilisez la commande suivante :
+
+```bash
+pip install numpy matplotlib
+```
 Pour installer le package, clonez ce dépôt et installez les dépendances nécessaires avec les commandes suivantes :
 
 ```bash
@@ -38,12 +42,22 @@ pip install -r requirements.txt
 
 Ce projet permet de visualiser les ensembles de Mandelbrot et de Julia. Vous pouvez exécuter les scripts pour générer les images correspondantes en ligne de commande.
 
-### Prérequis
-
-Assurez-vous que les modules `numpy` et `matplotlib` sont installés. Pour les installer, utilisez la commande suivante :
+Pour utiliser mandelbrot
 
 ```bash
-pip install numpy matplotlib
+python -m mandelbrot_julia.main_mandelbrot
+```
 
+Pour utiliser julia avec un paramètre 
+
+```bash
+python -m mandelbrot_julia.main_julia --param 0.355+0.355j
+```
+
+## Exemples 
+
+Le dossier images contient deux rendus du code, un pour l'ensemble de Mandelbrot, un pour Julia.
+
+## 
 
 
